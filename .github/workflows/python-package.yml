@@ -24,9 +24,10 @@ jobs:
     - name: Lint with flake8
       run: |
         flake8
-    - name: Reformat with black
+    - name: Reformat and check with black
       run: |
-        black --check --exclude '/todo/todo/' .
+        black --exclude '/todo' .
+        black --check --exclude '/todo' .
     - name: Unit Tests and Coverage Report
       run: |
         coverage run --source=api manage.py test api.tests_unit
