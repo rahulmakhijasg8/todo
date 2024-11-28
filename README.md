@@ -82,7 +82,8 @@ Make sure you have the following installed on your local machine:
 8. **Authentication: 
    Basic authentication is required for all API endpoints.**
 
-***Endpoints***
+**Endpoints**
+
 
 **GET /api/tasks/: List all tasks**  
 **POST /api/tasks/: Create a task**  
@@ -91,3 +92,15 @@ Make sure you have the following installed on your local machine:
 **DELETE /api/tasks/{id}/: Delete a task**  
 
 
+**Screenshots for coverage reports**
+
+
+![Screenshot 2024-11-27 215929](https://github.com/user-attachments/assets/a2389fc3-1e46-4134-bc60-4e03a8a2efd8)
+
+
+
+
+
+
+
+![Screenshot 2024-11-27 222059](https://github.com/user-attachments/assets/19167d0c-7ec5-48a3-a3b9-3b0a3684f75e)
